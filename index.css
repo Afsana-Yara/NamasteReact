@@ -1,3 +1,84 @@
-div{
-    color:red
+.logo{
+    width : 100px;
+}
+.header{
+    box-shadow: 0px 0px 10px 10px lightgoldenrodyellow;
+    background: lightgoldenrodyellow;
+    display: flex;
+   
+    
+}
+.logo-container{
+    width:100px;
+    height:100px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    padding-top: 20px;
+    
+
+}
+
+.nav-list > li{
+    padding: 5px;
+    color: goldenrod;
+}
+.nav-container{
+    margin-left: 800px;
+}
+.copyright-container{
+    color: goldenrod;
+}
+.footer{
+    background-color: lightgoldenrodyellow;
+    display : flex;
+    box-shadow: 0px 0px 10px 10px lightgoldenrodyellow;
+    
+    
+}
+.contact-container> h4{
+    color: goldenrod;
+    margin : 2px;
+    margin-left: 800px;
+}
+
+
+.resto-logo>img{
+    width : 200px;
+    height: 200px;
+}
+
+.resto-card:hover{
+    box-shadow:0px 0px 10px 2px lightgoldenrodyellow;
+    cursor: pointer;
+    
+}
+
+.resto-details>h4{
+    margin: 2px;
+    color: goldenrod;
+    height:20px;
+}
+
+
+
+.resto-card{
+    width:200px;
+   
+    display: inline-block;
+    height: 200px;
+    margin:2px;
+   
+    
+   
+    
+    
+}
+.body{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

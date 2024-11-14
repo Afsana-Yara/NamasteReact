@@ -18,3 +18,17 @@
 - HTTPs
 - Tree shaking - remove unused code
 - Different dev and prod bundles
+
+
+// -AppComponent
+//   -Header
+//       -Logo
+//       -Nav-Items
+//   -Body
+//       -search
+//       -RestaurantContainer
+//             -restoCards
+//   -Footer
+//       -copyright
+//       -address
+//       -contact
